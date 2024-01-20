@@ -11,8 +11,8 @@ jobs:
     # environment: testing
     env: 
       MONGODB_CLUSTER_ADDRESS: amkmongocluster.uluiuiz.mongodb.net
-      MONGODB_USERNAME: amitkabk
-      MONGODB_PASSWORD: AmksTechShow
+      MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
       PORT: 7788
     runs-on: ubuntu-latest
     steps:
