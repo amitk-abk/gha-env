@@ -12,7 +12,7 @@ jobs:
     env: 
       MONGODB_CLUSTER_ADDRESS: amkmongocluster.uluiuiz.mongodb.net
       MONGODB_USERNAME: amitkabk
-      MONGODB_PASSWORD: GNMVkImP6jckl3ZJ
+      MONGODB_PASSWORD: AmksTechShow
       PORT: 7788
     runs-on: ubuntu-latest
     steps:
